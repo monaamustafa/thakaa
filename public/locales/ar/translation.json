@@ -1,0 +1,22 @@
+{
+  "home": {
+    "home": "الصفحة الرئيسية"
+  },
+  "dashbord": {
+    "sidebar": {
+      "OverView": "الملخص",
+      "Orders": "الطلبات",
+      "Clients": "العملاء",
+      "Reborts": "التقارير",
+      "Inventory": "المخزون",
+      "Products": "قائمة المنتجات",
+      "Setting": "إدارة ",
+      "Play Store": "متجر التطبيقات",
+      "payment": "بوابة الدفع"
+    },
+    "clientSection":{
+      "allClients":"جميع العملاء",
+      "walaaClients":"عملاء برنامج الولاء"
+    }
+  }
+}

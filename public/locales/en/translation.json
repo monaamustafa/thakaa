@@ -1,0 +1,23 @@
+{
+  "home": {
+    "home": "Home"
+  },
+  "dashbord": {
+    "sidebar": {
+      "OverView": "OverView",
+      "Orders": "Orders",
+      "Clients": "Clients",
+      "Reborts": "Reborts",
+      "Inventory": "Inventory",
+      "Products": "Products",
+      "Setting": "Setting",
+      "App Store": "Play Store",
+      "payment": "payment"
+    }
+    ,
+    "clientSection":{
+      "allClients":"All Clients",
+      "walaaClients":"Walaa Clients"
+    }
+  }
+}
