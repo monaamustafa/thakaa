@@ -1,6 +1,12 @@
 {
   "home": {
-    "home": "الصفحة الرئيسية"
+    "home": "الرئيسية",
+    "navbar":{
+    "whoAreWe":"من نحن",
+     "services":"خدماتنا",
+     "contactUS":"تواصل معنا",
+     "careers":"وظائف"
+    }
   },
   "dashbord": {
     "sidebar": {

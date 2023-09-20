@@ -1,6 +1,6 @@
 import  { useState, useEffect } from 'react';
 
-const TypewriterWithHide = ({ text, repeat, speed }) => {
+const Typewriter = ({ text, repeat, speed }) => {
   const [displayText, setDisplayText] = useState('');
   const [isHiding, setIsHiding] = useState(false);
 
@@ -20,7 +20,7 @@ const TypewriterWithHide = ({ text, repeat, speed }) => {
     return () => clearInterval(interval);
   }, [text, displayText, isHiding, repeat, speed]);
 
-  return <p>{displayText}</p>;
+  return <h1 className='text-primary text-5xl font-extrabold p-5'>{displayText}</h1>;
 };
 
-export default TypewriterWithHide;
+export default Typewriter;

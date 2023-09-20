@@ -1,20 +1,21 @@
+import withMT from "@material-tailwind/react/utils/withMT";
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}', 'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'],
+export default withMT({
+  content: ['./index.html', "./src/**/*.{js,jsx,ts,tsx}",
+  "path-to-your-node_modules/@material-tailwind/react/components/**/*.{js,ts,jsx,tsx}",
+  "path-to-your-node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}",
+],
   theme: {
+    extend: {},
     colors: {
-      primary: '#2874E1',
+      primary: '#09B9E1',
       lightBlue: '#99C3FF',
-      navy:'#0B264E',
-      secondary: '#F8991D',
+      navy:'#12151C',
+      secondary: '#00ABAD',
       smokeWhite: '#d5d5d5',
       smokegrey: '#FAFAFA',
     },
-    extend: {
-    },
+
   },
-  plugins: [
-    // eslint-disable-next-line no-undef
-    require('flowbite/plugin'),
-  ],
-};
+  plugins: [],
+});

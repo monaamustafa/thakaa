@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 function App() {
   return (
-    <div className="App">
+    <div className="App scroll-smooth">
       <Routes>
         <Route element={<PageLayout />}>
           <Route path="/" element={<Home />} />

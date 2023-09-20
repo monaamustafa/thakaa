@@ -1,6 +1,12 @@
 {
   "home": {
-    "home": "Home"
+    "home": "Home",
+    "navbar":{
+     "whoAreWe" :"who are we",
+     "services":"Services",
+     "contactUS":"Contact Us",
+     "careers":"careers"
+    }
   },
   "dashbord": {
     "sidebar": {
